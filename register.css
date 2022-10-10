@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+    width: 100%;
+    background-color: #1b3039;
+    padding: 5px 5%;
+    top: 0;
+}
+
+.boton-inicio button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.logo img{
+    width: 12rem;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+
+.form-register{
+    width: 95%;
+    height: 620px;
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+    border-radius: 10px; 
+}
+
+.form-register h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+
+.input-box{
+    width: calc(100% / 2 - 30px);
+    margin: 20px 0 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box input{
+    height: 55px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    background-color: #345b6b;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.input-box span{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.genero label{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.button{
+    margin-left: 20px;
+}
+
+.button input{
+    background-color: #345b6b;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 200px;
+    color: #fff;
+    font-size: 17px;
+    background-color: #345b6b;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

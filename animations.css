@@ -1,0 +1,111 @@
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+.nav-list li:hover{
+    transform: scale(1.2);
+}
+
+.nav-list a:hover{
+    color: gold;
+}
+
+.register button:hover{
+    background-color: #e2f1f8;
+    color: gold;
+    transform: scale(1.3);
+}
+
+.txt-dinamico li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-left: 2px solid gold;
+    animation: typing 3s steps(10) infinite;
+}
+
+.txt-dinamico li{
+    animation: slide 12s steps(4) infinite;
+
+}
+
+@keyframes typing{
+    40%,
+    60%{
+        left: calc(100% + 30px);
+    }
+
+    100%{
+        left: 0;
+    }
+}
+
+@keyframes slide{
+    100%{
+        top: -360px;
+    }
+}
+
+.cards:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+
+.cards:hover > .info{
+    opacity: 1;
+    visibility: visible;
+}
+
+.cards:hover > .info h2{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.item:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+
+.sobre-nosotros:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+.disenio-exclusividad:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+.diferencia:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+
+
+/* --------------------------- LOGIN - REGISTER - CATALOGO ------------------------------------------------------------*/
+
+/* LOGIN */ 
+
+.boton-inicio button:hover{
+    background-color: #e2f1f8;
+    color: gold;
+    transform: scale(1.3);
+}
+
+
+.sub-log:hover{
+    background-color: #051f2b;
+    color: gold;
+    transform: scale(1.1);
+}
+
+
+/* REGISTER */
+
+.button input:hover{
+    color: gold;
+    background-color: #051f2b;
+    transform: scale(1.2);
+}

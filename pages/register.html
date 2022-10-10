@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="../register.css">
+    <link rel="stylesheet" href="../animations.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html">
+                <img src="../assets/Imagenes/icono-nav.png" alt="icono"> </a>
+            </div>
+            <div class="boton-inicio">
+                <a href="../index.html"><button>INICIO</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-register">
+            <h1>Bienvenido a Bases Alsina</h1>
+            <form>
+                <div class="input-box">
+                    <span>Nombre Completo</span>
+                    <input type="text" placeholder="Nombre Completo" required>
+                </div>
+                <div class="input-box">
+                    <span>Nombre de Usuario</span>
+                    <input type="text" placeholder="Nombre de Usuario" required>
+                </div>
+
+                <div class="input-box">
+                    <span>Correo Electronico</span>
+                    <input type="email" placeholder="Correo Electronico" required>
+                </div>
+                <div class="input-box">
+                    <span>Telefono</span>
+                    <input type="number" placeholder="Telefono" required>
+                </div>
+
+                <div class="input-box">
+                    <span>Contraseña</span>
+                    <input type="password" placeholder="Contraseña" required>
+                </div>
+                <div class="input-box">
+                    <span>Confirmar Contraseña</span>
+                    <input type="password" placeholder="Contraseña" required>   
+                </div>
+                
+                <div class="genero">
+                    <label for="generos">Genero</label>
+                    <select name="generos" id="generos">
+                        <option value="male">Masculino</option>
+                        <option value="female">Femenino</option>
+                        <option value="nogenero">Prefiero no contestar</option>
+                    </select>
+                </div>
+                
+            </form>
+            
+            <div class="button">
+                <input type="submit" value="Registrarse">
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+</html>

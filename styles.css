@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+/* NAVBAR */
+
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+    width: 100%;
+    background-color: #1b3039;
+    padding: 5px 5%;
+    top: 0;
+    z-index: 1;
+}
+
+.logo img{
+    width: 12rem;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.nav-list ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.nav-list a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+}
+
+
+.register button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 105px;
+
+}
+
+/* Section 1 */
+
+#sec-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo .txt-estatico{
+    color: #1b3039;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.titulo .txt-dinamico{
+    margin-left: 15px;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.txt-dinamico li{
+    list-style: none;
+    color: gold;
+    font-size: 60px;
+    font-weight: 600;
+    top: 0;
+    position: relative;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards{
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+}
+
+.inicio .cards .imgSuela img{
+   width: 100%;
+   height: 100%;
+   transition: all 500ms ease-out;
+}
+
+.info{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.info h2{
+    color: gold;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    transition: all 500ms ease-out;
+}
+
+.info p{
+    color: gold;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 250px;
+    margin: auto;
+}
+
+/* Section 2 */ 
+
+#sec-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#sec-2 h2{
+    font-size: 45px;
+    color: gold;
+}
+
+.empresa{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b3039;
+}
+
+.seccion-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.aboutUs{
+    height: 800px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.sobre-nosotros , .disenio-exclusividad , .diferencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(233, 233, 233, 0.726);
+    border-radius: 1rem;
+    gap: 5px;
+    height: 400px;
+    width: 550px;
+    padding: 20px;
+}
+
+.aboutUs h3{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.aboutUs p{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.grid-container{
+    height: 800px;
+    width: 750px;
+    display: grid;
+    grid-template-columns: 160px 160px 160px 160px 160px;
+    gap: 10px;
+    grid-template-rows: 125px 125px 125px 125px 125px 125px;
+}
+
+.item{
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 0px #1b3039;
+}
+
+.item:nth-child(1){
+    background: url(./assets/Empresa/Horma-1.jpg) no-repeat center/cover;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.item:nth-child(2){
+    background: url(./assets/Empresa/Maquina-1.jpg) no-repeat center/cover;
+    grid-column: 3/6;
+    grid-row: 1/3;
+
+}
+
+ .item:nth-child(3){
+    background: url(./assets/Empresa/Maquina-3.jpg) no-repeat center/cover;
+    grid-column: 1/4;
+    grid-row: 3/5;  
+}
+
+.item:nth-child(4){
+    background: url(./assets/Empresa/Maquina-4.jpg) no-repeat center/cover;
+    grid-column: 4/6;
+    grid-row: 3/5;
+
+}
+
+.item:nth-child(5){
+    background: url(./assets/Empresa/Maquina-2.jpg) no-repeat center/cover;
+    grid-column: 1/3;
+    grid-row: 5/7;
+
+}
+
+.item:nth-child(6){
+    background: url(./assets/Empresa/Maquina-5.jpg) no-repeat center/cover; 
+    grid-column: 3/6;
+    grid-row: 5/7;
+
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #1b3039;
+    height: 250px;
+    margin-top: 50px;
+}
+
+#footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-icon{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon img{
+    width: 10rem;
+    cursor: pointer;
+}
+
+.footer-contacto{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.red-social{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+
+}
+
+.red{
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.ubicacion{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+
+}
+
+footer h3{
+    color: gold;
+}
+
+footer h4{
+    color: #999;
+}
+
+footer i{
+    color: #999;
+}
+
