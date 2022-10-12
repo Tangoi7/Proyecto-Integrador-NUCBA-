@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.catalogo{
+    width: 100%;
+    height: 100px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogo h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: gold;
+}
+
+.genero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+}
+
+.genero h2{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.suelas{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hombre{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 30px;
+}
+
+.suela-hombre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.suela-hombre img{
+    height: 340px;
+    width: 340px;
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+
+.suela-mujer img{
+    height: 340px;
+    width: 340px;
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+
+.suela-mujer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mujer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 30px;
+}
+
+.grid-tendencia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-tendencia h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.grid-suelas{
+    margin-top: 15px;
+    height: 2700px;
+    width: 1400px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 220px 220px 220px 220px 220px;
+    gap: 45px;
+    grid-template-rows: 175px 175px 175px 175px 175px 175px
+    175px 175px 175px 175px 175px 175px;
+
+}
+
+.item-suela{
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 0px #1b3039;
+}
+
+.item-suela:nth-child(1){
+    background: url(./assets/Suelas-Calzados/1.jpg) no-repeat center/cover;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.item-suela:nth-child(2){
+    background: url(./assets/Suelas-Calzados/2.jpg) no-repeat center/cover;
+    grid-column: 3/6;
+    grid-row: 1/3;
+
+}
+
+.item-suela:nth-child(3){
+    background: url(./assets/Suelas-Calzados/3.jpg) no-repeat center/cover;
+    grid-column: 1/4;
+    grid-row: 3/5;  
+}
+
+.item-suela:nth-child(4){
+    background: url(./assets/Suelas-Calzados/4.jpg) no-repeat center/cover;
+    grid-column: 4/6;
+    grid-row: 3/5;
+
+}
+
+.item-suela:nth-child(5){
+    background: url(./assets/Suelas-Calzados/5.jpg) no-repeat center/cover;
+    grid-column: 1/3;
+    grid-row: 5/7;
+
+}
+
+.item-suela:nth-child(6){
+    background: url(./assets/Suelas-Calzados/7.jpg) no-repeat center/cover;
+    grid-column: 3/6;
+    grid-row: 5/7;
+}
+
+.item-suela:nth-child(7){
+    background: url(./assets/Suelas-Calzados/6.jpg) no-repeat center/cover;
+    grid-column: 1/7;
+    grid-row: 7/9;
+}
+
+.item-suela:nth-child(8){
+    background: url(./assets/Suelas-Calzados/8.jpg) no-repeat center/cover;
+    grid-column: 1/3;
+    grid-row: 9/11;
+}
+
+.item-suela:nth-child(9){
+    background: url(./assets/Suelas-Calzados/9.jpg) no-repeat center/cover;
+    grid-column: 3/6;
+    grid-row: 9/11;
+}
+
+.item-suela:nth-child(10){
+    background: url(./assets/Suelas-Calzados/10.jpg) no-repeat center/cover;
+    grid-column: 1/6;
+    grid-row: 11/13;
+}
+
+
+/* --- FOOTER --- */
+
+footer{
+    background-color: #1b3039;
+    height: 250px;
+    width: 100%;
+  
+}
+
+#footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.footer-icon{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon img{
+    width: 10rem;
+    cursor: pointer;
+}
+
+.footer-contacto{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.red-social{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+
+}
+
+.red{
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.ubicacion{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+
+}
+
+footer h3{
+    color: gold;
+}
+
+footer h4{
+    color: #999;
+}
+
+footer i{
+    color: #999;
+}
+
+

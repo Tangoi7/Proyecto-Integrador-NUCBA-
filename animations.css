@@ -109,3 +109,22 @@
     background-color: #051f2b;
     transform: scale(1.2);
 }
+
+
+/* CATALOGO*/
+
+.suela-hombre:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+
+.suela-mujer:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+
+.item-suela:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease-in;
+}
+

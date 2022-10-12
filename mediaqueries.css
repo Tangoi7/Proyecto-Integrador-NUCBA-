@@ -1,0 +1,402 @@
+@media (max-width:1280px){
+    /* --- NAV --- */
+    .logo img{
+        width: 12rem;
+    }
+
+    nav{
+        padding: 0 15px;
+    }
+
+    /* --- Section 1 --- */ 
+
+    .inicio{
+        gap: 30px
+    }
+
+    .cards{
+        position: relative;
+        width: 18rem;
+        height: 18rem;
+        overflow: hidden;
+    }
+
+    /* --- Section 2 --- */
+
+    .seccion-2{
+        gap: 20px;
+    }
+
+    .aboutUs{
+        gap: 10px;
+        margin-bottom: 90px;
+    }
+
+    .sobre-nosotros, .disenio-exclusividad, .diferencia{
+        height: 230px;
+        width: 450px;
+        gap: 10px;
+        padding: 0 0;
+
+    }
+
+    .grid-container{
+        height: 800px;
+        width: 700px;
+        display: grid;
+        grid-template-columns: 130px 130px 130px 130px 130px;
+        gap: 10px;
+        grid-template-rows: 110px 110px 110px 110px 110px 110px;
+    }
+
+    .aboutUs h3{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .aboutUs p{
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    /* --- FOOTER --- */
+
+
+    #footer-container{
+        gap: 10px;
+    }
+
+    .footer-contacto{
+        width: 300px;
+        height: 200px;
+    }
+
+    .ubicacion{
+        width: 300px;
+        height: 200px;
+        gap: 10px;
+    }
+
+    .red-social{
+        width: 300px;
+        height: 200px;
+    }
+
+    .red{
+        gap: 40px;
+    }
+
+    .footer-icon img{
+        width: 10rem;
+    }
+
+    footer h3, h4{
+        font-size: 17px;
+    }
+
+    footer i{
+        width: 1rem;
+    }
+
+}
+
+
+@media (max-width:992px){
+    /* --- NAV --- */
+    .logo img{
+        width: 10rem;
+        cursor: pointer;
+        transition: all 0.7s;
+    }
+
+    nav{
+        padding: 0 20px;
+    }
+
+    .nav-list ul{
+        gap: 20px;
+    }
+
+    .list a{
+        font-size: 17px;
+    }
+
+    .register button{
+        font-size: 17px;
+    }
+
+    /* --- Section 1 --- */ 
+
+    .titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .titulo .txt-estatico{
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .txt-dinamico li{
+        font-size: 60px;
+        font-weight: 500;
+    }
+
+    .cards{
+        position: relative;
+        width: 14rem;
+        height: 14rem;
+        overflow: hidden;
+    }
+
+    /* --- Section 2 --- */
+
+    .empresa{
+        width: 100%;        
+    }
+
+    .seccion-2{
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutUs{
+        gap: 20px;
+    }
+
+    .sobre-nosotros, .disenio-exclusividad, .diferencia{
+        height: 500px;
+        width: 800px;
+        gap: 30px;
+        padding: 10px 10px;
+
+    }
+
+    .aboutUs h3{
+        font-size: 27px;
+        font-weight: 900;
+    }
+    
+    .aboutUs p{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+    .grid-container{
+        justify-content: center;
+    }
+
+    /* --- FOOTER --- */
+
+    footer{
+        height: 200px;
+
+    }
+
+    #footer-container{
+        gap: 10px;
+    }
+
+    .footer-contacto{
+        width: 300px;
+        height: 200px;
+    }
+
+    .ubicacion{
+        width: 300px;
+        height: 200px;
+        gap: 10px;
+    }
+
+    .red-social{
+        width: 300px;
+        height: 200px;
+    }
+
+    .red{
+        gap: 35px;
+    }
+
+    .footer-icon img{
+        width: 8rem;
+    }
+
+    footer h3, h4{
+        font-size: 17px;
+    }
+
+    footer i{
+        width: 1rem;
+    }
+    
+
+}
+
+@media (max-width:576px){
+    /* --- NAV --- */
+
+    .logo img{
+        width: 9rem;
+    }
+
+    .nav-list{
+        margin-left: 200px;
+    }
+
+    .nav-list ul{
+        background-color: #214352;
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        transform: translateX(200%);
+        transition: all 0.5s ease-out;
+    }
+
+    .list a{
+        font-size: 30px;
+    }
+
+    .nav-list i{
+        color: aliceblue;
+        display: block;
+    }
+
+    #toggle-menu:checked + .list{
+        display: flex;
+        transform: translateX(0%);
+        transition: all 0.5s ease-in;
+    }
+
+    .register a{
+        display: none;
+    }
+
+    /* --- Section 1 --- */
+
+    .titulo{
+        gap: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo .txt-estatico{
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .txt-dinamico li{
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .inicio{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards{
+        position: relative;
+        width: 14rem;
+        height: 14rem;
+        overflow: hidden;
+    }
+
+    /* --- Section 2 --- */
+
+    #sec-2{
+        gap: 100px;
+    }
+
+    #sec-2 h2{
+        font-size: 35px;
+    }
+
+    .aboutUs{
+        height: 1220px;
+        gap: 35px;
+    }
+
+    .sobre-nosotros{
+        height: 460px;
+        width: 400px;
+    }
+
+    .disenio-exclusividad{
+        height: 460px;
+        width: 400px;
+    }
+
+    .diferencia{
+        height: 460px;
+        width: 400px;
+    }
+
+    .grid-container{
+        display: none;
+    }
+
+    /* --- FOOTER --- */
+
+    footer{
+        width: 100%;
+        height: 350px;
+        bottom: 0;
+        margin-top: 20px;
+    }
+    
+    .footer-icon{
+        display: none;
+    }
+
+    #footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .footer-contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+
+    .red-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+
+    }
+
+    .ubicacion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+
+    .segundo-h4{
+        display: none;
+    }
+
+    .red{
+        display: flex;
+        gap: 55px;
+    }
+}
