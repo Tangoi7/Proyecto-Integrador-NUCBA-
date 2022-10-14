@@ -1,3 +1,5 @@
+/* --- INDEX --- */
+
 @media (max-width:1280px){
     /* --- NAV --- */
     .logo img{
@@ -236,11 +238,12 @@
 
 }
 
-@media (max-width:576px){
+
+@media (max-width:420px){
     /* --- NAV --- */
 
     .logo img{
-        width: 9rem;
+        width: 6rem;
     }
 
     .nav-list{
@@ -290,12 +293,12 @@
     }
 
     .titulo .txt-estatico{
-        font-size: 22px;
+        font-size: 26px;
         font-weight: 700;
     }
 
     .txt-dinamico li{
-        font-size: 35px;
+        font-size: 37px;
         font-weight: 700;
     }
 
@@ -306,9 +309,13 @@
 
     .cards{
         position: relative;
-        width: 14rem;
-        height: 14rem;
+        width: 13rem;
+        height: 13rem;
         overflow: hidden;
+    }
+
+    .info p{
+        display: none;
     }
 
     /* --- Section 2 --- */
@@ -328,17 +335,34 @@
 
     .sobre-nosotros{
         height: 460px;
-        width: 400px;
+        width: 360px;
+    }
+
+    .sobre-nosotros p{
+        font-size: 17px;
+
     }
 
     .disenio-exclusividad{
         height: 460px;
-        width: 400px;
+        width: 360px;
+    }
+
+    .disenio-exclusividad p{
+        font-size: 17px;
     }
 
     .diferencia{
         height: 460px;
-        width: 400px;
+        width: 360px;
+    }
+
+    .diferencia h3{
+        font-size: 24px;
+    }
+
+    .diferencia p{
+        font-size: 17px;
     }
 
     .grid-container{

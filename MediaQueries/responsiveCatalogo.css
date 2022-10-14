@@ -1,0 +1,242 @@
+/* --- CATALOGO --- */
+
+@media (max-width:1280px){
+
+    .logo img{
+        width: 10rem;
+    }
+
+    nav{
+        padding: 0 15px;
+    }
+
+
+    .suelas{
+        gap: 5px;
+    }
+
+    .hombre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .mujer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .suela-hombre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        width: 250px;
+    }
+
+    .suela-mujer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        width: 250px;
+    }
+
+    .suela-hombre img{
+        height: 220px;
+        width: 220px;
+    }
+
+    .suela-mujer img{
+        height: 220px;
+        width: 220px;
+    }
+
+    .grid-suelas{
+        margin-top: 15px;
+        height: 2000px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 150px 150px 150px 150px 150px;
+        gap: 45px;
+        grid-template-rows: 120px 120px 120px 120px 120px 120px
+        120px 120px 120px 120px 120px 120px;
+    
+    }
+
+    .grid-suelas div:nth-child(7){
+        height: 275px;
+        width: 930px;
+    }
+
+}
+
+@media (max-width:976px){
+    .logo img{
+        width: 9rem;
+        cursor: pointer;
+        transition: all 0.7s;
+    }
+
+    nav{
+        padding: 0 20px;
+    }
+
+    .nav-list ul{
+        gap: 20px;
+    }
+
+    .nav-list a{
+        font-size: 17px;
+    }
+
+    .register button{
+        font-size: 17px;
+    }
+
+    .catalogo{
+        gap: 30px;
+    }
+
+    .suela-hombre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 230px;
+        width: 230px;
+    }
+
+    .suela-mujer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 230px;
+        width: 230px;
+    }
+
+    .suela-hombre img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .suela-mujer img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .grid-suelas{
+        margin-top: 15px;
+        margin-left: 25px;
+        height: 1550px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 120px 120px 120px 120px 120px;
+        gap: 35px;
+        grid-template-rows: 95px 95px 95px 95px 95px 95px
+        95px 95px 95px 95px 95px 95px;
+    
+    }
+
+    .grid-suelas div:nth-child(7){
+        height: 230px;
+        width: 740px;
+    }
+
+    /* --- FOOTER --- */
+
+    footer{
+        height: 200px;
+
+    }
+
+    #footer-container{
+        gap: 10px;
+    }
+
+    .footer-contacto{
+        width: 300px;
+        height: 200px;
+    }
+
+    .ubicacion{
+        width: 300px;
+        height: 200px;
+        gap: 10px;
+    }
+
+    .red-social{
+        width: 300px;
+        height: 200px;
+    }
+
+    .red{
+        gap: 65px;
+    }
+
+    .footer-icon img{
+        width: 8rem;
+    }
+
+    footer h3, h4{
+        font-size: 15px;
+    }
+
+    footer i{
+        width: 1rem;
+    }
+
+}
+
+@media (max-width:420px){
+    .logo img{
+        width: 6rem;
+    }
+
+    .nav-list{
+        margin-left: 200px;
+    }
+
+    .nav-list ul{
+        background-color: #214352;
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        transform: translateX(200%);
+        transition: all 0.5s ease-out;
+    }
+
+    .list a{
+        font-size: 30px;
+    }
+
+    .nav-list i{
+        color: aliceblue;
+        display: block;
+    }
+
+    #toggle-menu:checked + .list{
+        display: flex;
+        transform: translateX(0%);
+        transition: all 0.5s ease-in;
+    }
+
+    .register a{
+        display: none;
+    }
+}
+
+
+
+

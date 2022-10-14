@@ -190,8 +190,10 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
     gap: 60px;
 }
+
 
 .aboutUs{
     height: 800px;
@@ -200,7 +202,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .sobre-nosotros , .disenio-exclusividad , .diferencia{
@@ -210,7 +212,7 @@ main{
     align-items: center;
     background-color: rgba(233, 233, 233, 0.726);
     border-radius: 1rem;
-    gap: 5px;
+    gap: 15px;
     height: 400px;
     width: 550px;
     padding: 20px;
@@ -230,7 +232,7 @@ main{
     height: 800px;
     width: 750px;
     display: grid;
-    grid-template-columns: 160px 160px 160px 160px 160px;
+    grid-template-columns: 150px 150px 150px 150px 150px;
     gap: 10px;
     grid-template-rows: 125px 125px 125px 125px 125px 125px;
 }
