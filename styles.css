@@ -40,6 +40,15 @@ nav{
     display: none;
 }
 
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
 .nav-list ul{
     list-style: none;
     display: flex;

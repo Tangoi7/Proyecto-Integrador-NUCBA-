@@ -1,13 +1,13 @@
 /* --- INDEX --- */
 
-@media (max-width:1280px){
+@media (max-width:1240px){
     /* --- NAV --- */
     .logo img{
-        width: 12rem;
+        width: 10rem;
     }
 
     nav{
-        padding: 0 15px;
+        padding: 0 20px;
     }
 
     /* --- Section 1 --- */ 
@@ -15,18 +15,24 @@
     .inicio{
         gap: 30px
     }
+    
 
     .cards{
         position: relative;
-        width: 18rem;
-        height: 18rem;
+        width: 16rem;
+        height: 16rem;
         overflow: hidden;
+    }
+
+    .info p{
+        display: none;
     }
 
     /* --- Section 2 --- */
 
     .seccion-2{
-        gap: 20px;
+        gap: 10px;
+        margin-right: 50px;
     }
 
     .aboutUs{
@@ -39,14 +45,13 @@
         width: 450px;
         gap: 10px;
         padding: 0 0;
-
     }
 
     .grid-container{
         height: 800px;
-        width: 700px;
+        width: 640px;
         display: grid;
-        grid-template-columns: 130px 130px 130px 130px 130px;
+        grid-template-columns: 120px 120px 120px 120px 120px;
         gap: 10px;
         grid-template-rows: 110px 110px 110px 110px 110px 110px;
     }
@@ -59,6 +64,10 @@
     .aboutUs p{
         font-size: 17px;
         font-weight: 400;
+    }
+
+    .item:hover{
+        display: none;
     }
 
     /* --- FOOTER --- */
@@ -103,10 +112,10 @@
 }
 
 
-@media (max-width:992px){
+@media (max-width:920px){
     /* --- NAV --- */
     .logo img{
-        width: 10rem;
+        width: 8rem;
         cursor: pointer;
         transition: all 0.7s;
     }
@@ -120,11 +129,11 @@
     }
 
     .list a{
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .register button{
-        font-size: 17px;
+        font-size: 15px;
     }
 
     /* --- Section 1 --- */ 
@@ -149,9 +158,13 @@
 
     .cards{
         position: relative;
-        width: 14rem;
-        height: 14rem;
+        width: 12rem;
+        height: 12rem;
         overflow: hidden;
+    }
+
+    .info p{
+        display: none;
     }
 
     /* --- Section 2 --- */
@@ -220,7 +233,7 @@
     }
 
     .red{
-        gap: 35px;
+        gap: 45px;
     }
 
     .footer-icon img{
@@ -228,7 +241,7 @@
     }
 
     footer h3, h4{
-        font-size: 17px;
+        font-size: 15px;
     }
 
     footer i{
@@ -239,15 +252,25 @@
 }
 
 
-@media (max-width:420px){
+@media (max-width:520px){
     /* --- NAV --- */
 
     .logo img{
-        width: 6rem;
+        width: 8rem;
+    }
+
+    nav{
+        width: 100;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
     }
 
     .nav-list{
-        margin-left: 200px;
+        gap: 0;
+        padding: 0 0;
     }
 
     .nav-list ul{
@@ -290,6 +313,7 @@
         gap: 1px;
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .titulo .txt-estatico{
@@ -305,6 +329,7 @@
     .inicio{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .cards{
