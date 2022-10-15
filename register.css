@@ -47,12 +47,23 @@ main{
     
 }
 
+.msj{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .form-register{
     width: 95%;
     height: 620px;
     box-shadow: 0 25px 40px rgba(0,0,0,.5);
-    border-radius: 10px; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
 }
 
 .form-register h1{

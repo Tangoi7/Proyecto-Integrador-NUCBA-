@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../MediaQueries/responsiveRegister.css">
     <link rel="stylesheet" href="../animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -25,33 +27,61 @@
 
     <main>
         <div class="form-register">
-            <h1>Bienvenido a Bases Alsina</h1>
+            <div class="msj">
+                <h1>Bienvenido a</h1>
+                <h1>Bases Alsina</h1>
+            </div>
+            <hr>
             <form>
                 <div class="input-box">
-                    <span>Nombre Completo</span>
-                    <input type="text" placeholder="Nombre Completo" required>
+                    <div>
+                        <span>Nombre Completo:</span>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Nombre Completo" required>
+                     </div>
                 </div>
                 <div class="input-box">
-                    <span>Nombre de Usuario</span>
-                    <input type="text" placeholder="Nombre de Usuario" required>
+                    <div>  
+                        <span>Nombre de Usuario:</span>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Nombre de Usuario" required>
+                    </div>
                 </div>
 
                 <div class="input-box">
-                    <span>Correo Electronico</span>
-                    <input type="email" placeholder="Correo Electronico" required>
+                    <div>
+                        <span>Correo Electronico:</span>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Correo Electronico" required>
+                    </div>
                 </div>
                 <div class="input-box">
-                    <span>Telefono</span>
-                    <input type="number" placeholder="Telefono" required>
+                    <div>
+                        <span>Telefono:</span>
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Telefono" required>
+                    </div>
                 </div>
 
                 <div class="input-box">
-                    <span>Contraseña</span>
-                    <input type="password" placeholder="Contraseña" required>
+                    <div>
+                        <span>Contraseña:</span>
+                    </div>
+                    <div>
+                        <input type="password" placeholder="Contraseña" required>
+                    </div>
                 </div>
                 <div class="input-box">
-                    <span>Confirmar Contraseña</span>
-                    <input type="password" placeholder="Contraseña" required>   
+                    <div>
+                        <span>Confirmar Contraseña:</span>
+                    </div>
+                    <div>
+                        <input type="password" placeholder="Contraseña" required>   
+                    </div>
                 </div>
                 
                 <div class="genero">
@@ -66,7 +96,7 @@
             </form>
             
             <div class="button">
-                <input type="submit" value="Registrarse">
+                <a href="../index.html"><input type="submit" value="Registrarse"></a>
             </div>
 
         </div>

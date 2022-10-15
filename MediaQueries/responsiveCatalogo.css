@@ -74,6 +74,51 @@
         width: 930px;
     }
 
+/* --- FOOTER --- */
+
+    footer{
+        height: 200px;
+
+    }
+
+    #footer-container{
+        gap: 10px;
+    }
+
+    .footer-contacto{
+        width: 300px;
+        height: 200px;
+    }
+
+    .ubicacion{
+        width: 300px;
+        height: 200px;
+        gap: 10px;
+    }
+
+    .red-social{
+        width: 300px;
+        height: 200px;
+    }
+
+    .red{
+        gap: 65px;
+    }
+
+    .footer-icon img{
+        width: 9rem;
+    }
+
+    footer h3, h4{
+        font-size: 15px;
+    }
+
+    footer i{
+        width: 1rem;
+    }
+
+
+
 }
 
 @media (max-width:976px){
@@ -193,13 +238,14 @@
 
 }
 
-@media (max-width:420px){
+@media (max-width:520px){
     .logo img{
-        width: 6rem;
+        width: 8rem;
     }
 
     .nav-list{
-        margin-left: 200px;
+        gap: 0;
+        padding: 0 0;    
     }
 
     .nav-list ul{
@@ -236,14 +282,36 @@
         display: none;
     }
     
-
-
     .catalogo{
         gap: 10px;
     }
 
+    .catalogo h1{
+        font-size: 40px;
+    }
+
+    .genero{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .h h2 , .m h2{
+        font-size: 25px;
+    }
+
+    .suelas{
+        gap: 0;
+        margin-bottom: 30px;
+    }
+
+    .hombre , .mujer{
+        gap: 90px;
+    }
+
     .suela-hombre{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 230px;
@@ -252,6 +320,7 @@
 
     .suela-mujer{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 230px;
@@ -259,32 +328,75 @@
     }
 
     .suela-hombre img{
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
     }
 
     .suela-mujer img{
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .grid-tendencia{
+        display: none;
     }
 
     .grid-suelas{
-        margin-top: 15px;
-        margin-left: 25px;
-        height: 1550px;
-        width: 100%;
-        display: grid;
-        justify-content: center;
-        grid-template-columns: 120px 120px 120px 120px 120px;
-        gap: 35px;
-        grid-template-rows: 95px 95px 95px 95px 95px 95px
-        95px 95px 95px 95px 95px 95px;
+        display: none;
     
     }
 
-    .grid-suelas div:nth-child(7){
-        height: 230px;
-        width: 740px;
+    footer{
+        width: 100%;
+        height: 350px;
+        bottom: 0;
+        margin-top: 20px;
+    }
+    
+    .footer-icon{
+        display: none;
+    }
+
+    #footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .footer-contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+
+    .red-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+
+    }
+
+    .ubicacion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+
+    .segundo-h4{
+        display: none;
+    }
+
+    .red{
+        display: flex;
+        gap: 55px;
     }
 
 }
